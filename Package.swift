@@ -16,7 +16,7 @@ let package = Package(
             targets: ["UnitTestsBrokenWithDittoSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/getditto/DittoSwiftPackage", exact: "4.7.4-rc.2"),
+        .package(url: "https://github.com/getditto/DittoSwiftPackage", from: "4.9.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
